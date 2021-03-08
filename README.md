@@ -58,17 +58,21 @@ mkdir <name-of-your-project-folder>
 3. Step into the folder:
 
 ```
-cd <name-of-your-folder>
+cd <name-of-your-project-folder>
 ```
 <br>
 4. Clone this Repo:
 
 
 ```
+//with ssh:
 git clone git@github.com:KriszProg/garage-store.git
+
+//or with https:
+git clone https://github.com/KriszProg/garage-store.git
 ```
 <br>
-5. Create 'jpa_databases_for_own_projects' folder in the root folder:<br> 
+5. Create <b>'jpa_databases_for_own_projects'</b> folder in the root folder:<br> 
 (this is necessary for the database setup)
 
 ```
@@ -79,14 +83,14 @@ mkdir jpa_databases_for_own_projects
 6. Open you project folder in your IDE (IntelliJ preferred)<br>
 
 <br>
-7. Go to [Services] sheet (View/Tool Windows/Services) and Run all the services
+7. Go to <b>[Services]</b> sheet (View/Tool Windows/Services) and Run all the services
 with the green play icon<br>
 
 <br>
-8. Open a [Terminal] (View/Tool Window/Terminal) and navigate to: 
+8. Open a [Terminal] (View/Tool Window/Terminal) inside your IDE and navigate to: 
 
 ```
-<name-of-your-project-folder>/garage-store-ui<br>
+<name-of-your-project-folder>/garage-store-ui
 ```
 
 
